@@ -4,7 +4,7 @@
 > 
 > In the heart of a bustling financial district lies a brokerage firm's trading floor, where traders make split-second decisions amid a frenzy of activity. Trades and quotes, recorded in separate tables, hold vital information about transactions and market prices.
 > 
-> > To ensure traders have the latest market data, a critical task emerges: pairing each trade with the most recent quote available at or before its time. Analysts devise a sophisticated SQL query, leveraging temporal joins to seamlessly integrate trade and quote data based on timestamps.
+> To ensure traders have the latest market data, a critical task emerges: pairing each trade with the most recent quote available at or before its time. Analysts devise a sophisticated SQL query, leveraging temporal joins to seamlessly integrate trade and quote data based on timestamps.
 > 
 > Given two tables, trade and quotes, containing transactional data in a financial market, where the trade table records trades and the quotes table records quotes for a specific financial instrument, construct an ASOF join SQL statement to pair each trade record with the most recent quote record available at or before the time of the trade.
 
